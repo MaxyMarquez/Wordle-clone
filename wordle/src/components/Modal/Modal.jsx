@@ -17,6 +17,7 @@ export default function Modal({ isCorrect, solution, turn }) {
                 <div className='popup-container'>
                     <div className='popup'>
                         <h1 className='modal-title'>Lastima!</h1>
+                        <p className='modal-p'>La palabra era {solution}</p>
                         <p className='modal-p'>Mejor suerte para la proxima!</p>
                         <button className='modal-btn' onClick={() => location.reload()}>Volver a Jugar</button>
                     </div>
