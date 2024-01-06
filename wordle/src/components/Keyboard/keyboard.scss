@@ -1,0 +1,38 @@
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 450px;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.letters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.keyboard>div.green {
+    background: #358D4E;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+.keyboard>div.yellow {
+    background: rgb(173, 173, 67);
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+.keyboard>div.grey {
+    background: rgb(62, 62, 62);
+    color: #fff;
+    transition: all 0.3s ease-in;
+}

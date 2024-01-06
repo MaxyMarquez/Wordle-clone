@@ -1,0 +1,25 @@
+.modal {
+    text-align: center;
+}
+
+.popup {
+    display: grid;
+    place-items: center;
+}
+
+.modal-title {
+    color: rgb(96, 96, 96);
+    font-size: 48px;
+}
+
+.modal-p {
+    font-size: 16px;
+    color: darkgray;
+    margin-bottom: 15px;
+}
+
+.modal-btn {
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
